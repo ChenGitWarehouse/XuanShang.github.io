@@ -1,0 +1,1058 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  outline: none !important;
+  -webkit-box-sizing: border-box;
+}
+* video {
+  object-fit: contain;
+}
+* input {
+  outline: none;
+  border: none;
+}
+* blockquote,
+* body,
+* button,
+* dd,
+* div,
+* dl,
+* dt,
+* form,
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* input,
+* li,
+* ol,
+* p,
+* pre,
+* td,
+* textarea,
+* th,
+* ul {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+* a {
+  outline: none;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+}
+* span,
+* em,
+* a,
+* img,
+* button,
+* input,
+* textarea {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+* img {
+  border: 0;
+  display: block;
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-touch-callout: none;
+}
+* html,
+* body {
+  width: 100%;
+  font-size: 12px;
+  min-width: 1200px;
+  position: relative;
+  background: #F5F5F5;
+  -webkit-overflow-scrolling: touch;
+  font-family: "PingFang SC", "HanHei SC", "Helvetica Neue", Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial", sans-serif !important;
+}
+* body {
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.85);
+  font: 14px Helvetica Neue, Helvetica, PingFang SC, Tahoma, Arial, sans-serif;
+}
+header {
+  width: 100%;
+  background: url(https://renminshangjin.oss-cn-hangzhou.aliyuncs.com/index/header_bg.jpg?x-oss-process=image/interlace,1) top left no-repeat;
+}
+header .center_box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header .center_box .menu_box {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .center_box .menu_box .menu_logo {
+  display: flex;
+  align-items: center;
+}
+header .center_box .menu_box .menu_logo .logo {
+  width: auto;
+  height: 46px;
+  margin-right: 10px;
+}
+header .center_box .menu_box .menu_logo .logo_text {
+  width: auto;
+  height: 40px;
+}
+header .center_box .menu_box .menu_list {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+header .center_box .menu_box .menu_list > a {
+  color: #FFFFFF;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-flex;
+}
+header .center_box .menu_box .menu_list > span {
+  width: 2px;
+  height: 16px;
+  background: #FFFFFF;
+  display: inline-flex;
+}
+header .center_box .criminal_title {
+  display: flex;
+  padding: 35px 0 100px;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  min-height: calc(100vh - 115px - 270px);
+}
+section .center_box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+section .center_box > div:first-child {
+  margin-top: 40px;
+}
+section .center_box > div {
+  margin-bottom: 40px;
+}
+section .center_box .screen_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen {
+  width: 704px;
+  height: 100%;
+  background: #FFFFFF;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_title {
+  height: 55px;
+  padding: 0 30px;
+  font-size: 24px;
+  line-height: 52px;
+  font-weight: bold;
+  border-top: 2px solid #EC3543;
+  border-bottom: 1px solid #F4F4F4;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main {
+  display: block;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item {
+  display: flex;
+  color: #333333;
+  font-size: 14px;
+  line-height: 34px;
+  padding: 5px 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEEEEE;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_title {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  padding-right: 22px;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_title:after {
+  right: 6px;
+  content: '：';
+  position: absolute;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main {
+  width: calc(100% - 78px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 32px;
+  width: calc(100% - 50px);
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list > span {
+  padding: 0 5px;
+  cursor: pointer;
+  display: block;
+  margin-right: 20px;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list > span:last-child {
+  margin-right: 0;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_more {
+  width: 50px;
+  color: #666666;
+  cursor: pointer;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_more::after {
+  content: '更多 ∨';
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex .criminal_screen_item {
+  display: flex;
+  color: #333333;
+  font-size: 14px;
+  line-height: 34px;
+  padding: 5px 30px;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEEEEE;
+  width: 50%;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex .criminal_screen_item .criminal_screen_item_main {
+  width: calc(100% - 78px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 32px;
+  width: 100%;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list > span {
+  padding: 0 5px;
+  cursor: pointer;
+  display: block;
+  margin-right: 20px;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_flex .criminal_screen_item .criminal_screen_item_main .criminal_screen_item_list > span:last-child {
+  margin-right: 0;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_condition {
+  display: flex;
+  color: #333333;
+  font-size: 14px;
+  align-items: flex-start;
+  justify-content: space-between;
+  opacity: 0;
+  line-height: 24px;
+  min-height: 42px;
+  padding: 8px 30px;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_condition .criminal_screen_item_title {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  padding-right: 22px;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_condition .criminal_screen_item_title:after {
+  right: 6px;
+  content: '：';
+  position: absolute;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_condition .filter_main {
+  flex-wrap: wrap;
+  margin-bottom: -8px;
+  justify-content: flex-start !important;
+  width: calc(100% - 78px);
+  display: flex;
+  align-items: flex-end;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main .criminal_screen_condition .filter_main .clear_filter {
+  border: none;
+  display: none;
+  color: #EC3543;
+  cursor: pointer;
+  line-height: 24px;
+  transition: all 0.1s;
+  padding: 0 10px;
+  margin-right: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+section .center_box .screen_box .criminal_screen .criminal_screen_main > *:last-child {
+  border-bottom: none;
+}
+section .center_box .screen_box .criminal_search {
+  width: 452px;
+  height: 100%;
+  background: #FFFFFF;
+}
+section .center_box .screen_box .criminal_search .criminal_screen_title {
+  height: 55px;
+  padding: 0 30px;
+  font-size: 24px;
+  line-height: 52px;
+  font-weight: bold;
+  border-top: 2px solid #EC3543;
+  border-bottom: 1px solid #F4F4F4;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main {
+  width: 100%;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 16px;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main .criminal_search_btn {
+  height: 56px !important;
+  padding-bottom: 16px;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main .criminal_search_btn .criminal_search_title {
+  color: #EC3543;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  padding-right: 0 !important;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main .criminal_search_btn #criminal_search_submit {
+  right: 0;
+  width: 290px;
+  height: 40px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 22px;
+  border-radius: 5px;
+  background: #1B4292;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div > div:nth-child(1) {
+  width: 114px;
+  display: flex;
+  align-items: center;
+  padding-right: 18px;
+  justify-content: space-between;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div > div:nth-child(2) {
+  width: 290px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div > div:nth-child(2) > input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-indent: 16px;
+  background: #F5F5F5;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div[data-type="name"]:before {
+  left: -12px;
+  content: '*';
+  color: #FF0000;
+  position: absolute;
+}
+section .center_box .screen_box .criminal_search .criminal_search_main > div > div:nth-child(1):after {
+  right: 0;
+  content: '：';
+  position: absolute;
+}
+section .center_box .screen_criminal_list {
+  width: 102%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px !important;
+}
+section .center_box .screen_criminal_list .screen_criminal_item {
+  width: 218px;
+  color: #333333;
+  padding: 15px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  transition: all 0.1s;
+  border: 1px solid #EEEEEE;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_img {
+  width: 100%;
+  display: flex;
+  padding: 17px 0 0;
+  align-items: center;
+  justify-content: center;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_img > img {
+  width: 135px;
+  height: 160px;
+  object-fit: cover;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_title {
+  width: 100%;
+  display: flex;
+  padding: 20px 0 15px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_title .screen_criminal_item_name {
+  display: flex;
+  align-items: center;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_title .screen_criminal_item_name > span {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_title .screen_criminal_item_name > i {
+  width: 22px;
+  height: 22px;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-left: 8px;
+  line-height: 12px;
+  font-style: normal;
+  border-radius: 3px;
+  background: #EC3543;
+  align-items: center;
+  margin-bottom: -2px;
+  display: inline-flex;
+  justify-content: center;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_title .screen_criminal_item_price {
+  color: #EC3543;
+  font-size: 12px;
+  line-height: 18px;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_desc {
+  width: 100%;
+  height: 48px;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_other {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 12px;
+  margin-top: 3px;
+  line-height: 18px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+section .center_box .screen_criminal_list .screen_criminal_item .screen_criminal_item_other .screen_criminal_item_release {
+  color: #666666;
+}
+section .center_box .pagination {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .center_box .pagination .pagination p {
+  padding: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999999;
+  border: 1px #E7E7E7 solid;
+  background: #F0F0F0;
+  margin-right: 8px;
+  transition: all 0.1s;
+  margin: 0;
+  cursor: pointer;
+}
+section .center_box .pagination .pagination a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  padding: 12px 8px;
+  font-size: 12px;
+  line-height: 12px;
+  min-width: 38px;
+  border: 1px #E7E7E7 solid;
+  background: #F0F0F0;
+  text-decoration: none;
+  color: #333333;
+  transition: all 0.1s;
+}
+section .center_box .pagination .pagination a .pagination a .cur {
+  border-color: #1B4D9A;
+  background: #1B4D9A;
+  color: #fff;
+}
+section .center_box .extension_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .center_box .crime_map_box {
+  width: 100%;
+  height: 624px;
+  background: #EEE8D8;
+  padding: 0 30px 30px;
+}
+section .center_box .crime_map_box .crime_title {
+  color: #333333;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: bold;
+  padding: 36px 0 30px;
+}
+section .center_box .crime_map_box .crime_main {
+  display: flex;
+  justify-content: space-between;
+}
+section .center_box .crime_map_box .crime_main .crime_map {
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+}
+section .center_box .crime_map_box .crime_main .crime_info {
+  width: 410px;
+  height: 500px;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_title {
+  width: 100%;
+  color: #C21E24;
+  font-size: 24px;
+  line-height: 72px;
+  text-align: center;
+  border-bottom: 1px dashed #C21E24;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list {
+  width: calc(100% + 12px);
+  height: 400px;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item {
+  width: 70px;
+  height: 130px;
+  display: flex;
+  color: #333333;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item > div:nth-child(1) > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item > div:nth-child(2) {
+  width: 100%;
+  display: flex;
+  padding: 0 3px;
+  margin-top: 6px;
+  align-items: center;
+  justify-content: space-between;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item > div:nth-child(2) > i {
+  width: 20px;
+  height: 20px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  border-radius: 3px;
+  background: #EC3543;
+  align-items: center;
+  margin-bottom: 1px;
+  display: inline-flex;
+  justify-content: center;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item > div:nth-child(2) > span {
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 5px;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item > div:nth-child(3) {
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 30px;
+  text-align: center;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list .crime_list_item:nth-child(5n) {
+  margin-right: 0;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+  background-color: #c1c1c1;
+}
+section .center_box .crime_map_box .crime_main .crime_info .crime_info_list::-webkit-scrollbar-track {
+  transition: all 0.1s;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+  background-color: #F1F1F1;
+}
+section .center_box .crime_map_box::after {
+  content: '';
+  top: 100px;
+  left: 690px;
+  width: 15px;
+  height: 500px;
+  display: block;
+  position: absolute;
+  background: url(../images/border_dot.png) 0 0 repeat-y;
+}
+section .center_box .crime_map_box:before {
+  top: 0;
+  left: 0;
+  content: '';
+  height: 5px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  background: #C50000;
+}
+section .center_box .location_route {
+  color: #333333;
+  font-size: 14px;
+  line-height: 56px;
+}
+section .center_box .location_route a {
+  color: #4395FF;
+}
+section .center_box .location_route span {
+  color: #666666;
+  padding: 0 6px;
+}
+section .center_box .location_route .detail_title {
+  padding: 0;
+  color: #333333;
+}
+section .center_box .criminal_briefly {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  color: #333333;
+  justify-content: space-between;
+}
+section .center_box .criminal_briefly > div:nth-child(1) {
+  width: 656px;
+  height: 100%;
+  display: flex;
+  padding: 40px 24px;
+  background: #FFFFFF;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel {
+  width: 180px;
+  height: 214px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel .swiper-wrapper .swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel .swiper-wrapper .criminal_carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel .swiper-wrapper .swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_carousel .swiper-pagination {
+  bottom: -35px;
+  position: absolute;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) {
+  padding-left: 24px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div {
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 30px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+  padding-bottom: 7px;
+  justify-content: space-between;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span {
+  font-size: 20px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > i {
+  width: 22px;
+  height: 22px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  border-radius: 3px;
+  background: #EC3543;
+  align-items: center;
+  margin-bottom: -2px;
+  display: inline-flex;
+  justify-content: center;
+}
+section .center_box .criminal_briefly > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+  color: #EC3543;
+  font-size: 16px;
+  line-height: 16px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns {
+  bottom: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: calc(100% - 48px);
+  justify-content: space-around;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div {
+  height: 34px;
+  display: flex;
+  color: #ED3F4C;
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ED3F4C;
+  background: rgba(237, 63, 76, 0.05);
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div i {
+  font-size: 18px;
+  line-height: 18px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div span {
+  font-size: 16px;
+  line-break: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification {
+  padding: 0 30px;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification .iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification .icon-shenfenshibierenzheng:before {
+  content: "\e99a";
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification .icon-tianjia:before {
+  content: "\e623";
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification .icon-qiandai:before {
+  content: "\e67d";
+}
+section .center_box .criminal_briefly > div:nth-child(1) .criminal_btns > div.criminal_verification .icon-cachu:before {
+  content: "\e80b";
+}
+section .center_box .criminal_briefly > div:nth-child(2) {
+  width: 490px;
+  height: 100%;
+}
+section .center_box .criminal_briefly > div:nth-child(2) > video {
+  width: 100%;
+  height: 100%;
+  background: #333333;
+}
+section .center_box .swiper-container-horizontal > .swiper-pagination-bullets,
+section .center_box .swiper-pagination-custom,
+section .center_box .swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+section .center_box .criminal_money_reward {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  padding-left: 295px;
+  padding-right: 265px;
+  justify-content: center;
+  background: #FFFFFF url(https://renminshangjin.oss-cn-hangzhou.aliyuncs.com/index/money_reward_bg.png?x-oss-process=image/interlace,1) 0 0 no-repeat;
+}
+section .center_box .criminal_money_reward > div {
+  width: 100%;
+  display: flex;
+  color: #2C1B40;
+  font-size: 36px;
+  font-weight: bold;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  text-shadow: 0 5px 2px rgba(44, 27, 64, 0.5);
+}
+section .center_box .criminal_info_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+section .center_box .criminal_info_box > div > div {
+  background: #FFFFFF;
+  margin-bottom: 24px;
+}
+section .center_box .criminal_info_box > div > div .criminal_info_title {
+  height: 72px;
+  display: flex;
+  color: #333333;
+  padding: 0 24px;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+  border-top: 2px solid #ED3D4A;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4F4F4;
+}
+section .center_box .criminal_info_box > div > div .criminal_info_main {
+  color: #333333;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 16px 24px;
+}
+section .center_box .criminal_info_box > div > div .criminal_info_main p {
+  text-indent: 32px;
+  margin-bottom: 8px;
+}
+section .center_box .criminal_info_box > div > div .criminal_info_main > div:nth-child(1) > span {
+  margin-right: 40px;
+}
+section .center_box .criminal_info_box > div > div .criminal_info_main div {
+  margin-bottom: 10px;
+}
+section .center_box .criminal_info_box > div > div .social-share {
+  font-family: "socialshare" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-qq {
+  color: #56b6e7;
+  border-color: #56b6e7;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-qq:before {
+  content: "\e600";
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat {
+  position: relative;
+  color: #7bc549;
+  border-color: #7bc549;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat .wechat-qrcode {
+  display: none;
+  border: 1px solid #eee;
+  position: absolute;
+  z-index: 9;
+  top: -205px;
+  left: -84px;
+  width: 200px;
+  height: 192px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 10px #aaa;
+  transition: all 200ms;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat .wechat-qrcode h4 {
+  font-weight: normal;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat .wechat-qrcode .help p {
+  font-weight: normal;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat .wechat-qrcode .qrcode {
+  width: 105px;
+  margin: 10px auto;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat:hover .wechat-qrcode {
+  display: block;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-wechat:before {
+  content: "\e687";
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-weibo {
+  color: #ff763b;
+  border-color: #ff763b;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-weibo:before {
+  content: "\e6c4";
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-qzone {
+  color: #FDBE3D;
+  border-color: #FDBE3D;
+}
+section .center_box .criminal_info_box > div > div .social-share .icon-qzone:before {
+  content: "\e629";
+}
+section .center_box .criminal_info_box > div > div .social-share .social-share-icon {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  border-radius: 50%;
+  line-height: 32px;
+  border: 1px solid #666;
+  text-align: center;
+  vertical-align: middle;
+  transition: background 0.6s ease-out 0s;
+}
+section .center_box .criminal_info_box > div > div .social-share a {
+  text-decoration: none;
+  margin: 4px;
+}
+section .center_box .criminal_info_box > div > div .bdsharebuttonbox:before {
+  content: '分享到：';
+  float: left;
+  font-size: 14px;
+  line-height: 36px;
+}
+section .center_box .criminal_info_box .criminal_info_left {
+  width: 771px;
+}
+section .center_box .criminal_info_box .criminal_info_right {
+  width: 375px;
+}
+section .center_box .criminal_info_box .criminal_info_right .criminal_info_title {
+  height: 72px;
+  display: flex;
+  color: #333333;
+  padding: 0 24px;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+  border-top: 2px solid #ED3D4A;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4F4F4;
+}
+section .center_box .criminal_info_box .criminal_info_right .criminal_info_main {
+  color: #333333;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 16px 24px;
+}
+section .center_box .criminal_info_box .criminal_info_right .criminal_info_main p {
+  text-indent: 32px;
+  margin-bottom: 8px;
+}
+section .center_box .criminal_info_box .criminal_info_right .criminal_info_main a {
+  width: 100%;
+  color: #333333;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 11px;
+  text-overflow: ellipsis;
+}
+footer {
+  height: 270px;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 14px;
+  background: #272B2E;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  color: #FFFFFF;
+}
+footer .center_box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+footer .center_box .footer_box > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+footer .center_box .footer_box .link .link_box > span:after {
+  content: '|';
+  margin-left: 8px;
+  margin-right: 4px;
+}
+footer .center_box .footer_box .beian > * {
+  display: flex;
+  margin-right: 14px;
+}
+footer .center_box .footer_box .beian > * > img {
+  margin-right: 6px;
+}
+footer .center_box .footer_box .beian > *:last-child {
+  margin-right: 0;
+}
